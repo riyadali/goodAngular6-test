@@ -12,6 +12,9 @@ import { FirstPageComponent } from './first-page/first-page.component';
 import { SecondPageComponent } from './second-page/second-page.component';
 import { ThirdPageComponent } from './third-page/third-page.component';
 
+/* it might be safest to import the routing module last */
+import { AppRoutingModule }     from './app-routing.module';
+
 const appRoutes: Routes = [
   { path: 'first-page', component: FirstPageComponent},
   { path: 'second-page', component: SecondPageComponent},
