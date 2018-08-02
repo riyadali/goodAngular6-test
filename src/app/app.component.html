@@ -1,5 +1,32 @@
 <h1>
   {{title}} <i class="fa fa-check"></i>
 </h1>
+<!--
 <my-nav></my-nav>
+-->
+</h1>
+  <!--
+  <app-tool-bar></app-tool-bar>
+  -->
+  <app-tool-bar-scalable></app-tool-bar-scalable>
+  <app-carousel-example></app-carousel-example>
+</div>
+<!-- remnants from tutorial site
+<h1>{{title}}</h1>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/transactions">Transactions</a>
+</nav>
+-->
+<div class="grey lighten-3">
+  <div class="pt-4 mt-0 mb-0 ml-2 mr-2">
+    <router-outlet></router-outlet>
+  </div>
+</div>
 
+<!--
+<app-footer></app-footer>
+
+<app-messages></app-messages>
+-->
