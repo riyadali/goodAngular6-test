@@ -14,6 +14,10 @@ import { PageNotFoundComponent }   from './page-not-found/page-not-found.compone
 import { PageHomeComponent }   from './page-home/page-home.component';
 import { PageDoingBusinessInBabylonComponent }   from './page-doing-business-in-babylon/page-doing-business-in-babylon.component';
 
+import { FirstPageComponent } from './first-page/first-page.component';
+import { SecondPageComponent } from './second-page/second-page.component';
+import { ThirdPageComponent } from './third-page/third-page.component';
+
 
 
 /* routes from the original heroes app ---
