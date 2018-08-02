@@ -9,8 +9,8 @@ import { TransactionDetailComponent }  from './transaction-detail/transaction-de
 import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 */
 import { PageNotFoundComponent }   from './page-not-found/page-not-found.component';
-import { DashboardComponent }   from './dashboard/dashboard.component';
-import { StandardPageComponent }   from './standard-page/standard-page.component';
+/*import { DashboardComponent }   from './dashboard/dashboard.component'; */
+/* import { StandardPageComponent }   from './standard-page/standard-page.component';*/
 import { PageHomeComponent }   from './page-home/page-home.component';
 import { PageDoingBusinessInBabylonComponent }   from './page-doing-business-in-babylon/page-doing-business-in-babylon.component';
 
@@ -84,9 +84,9 @@ const routes: Routes = [
  { path: '', redirectTo: '/home', pathMatch: 'full' },
  { path: 'home', component: PageHomeComponent, pathMatch: 'full' },
  { path: 'doing_business_in_babylon', component: PageDoingBusinessInBabylonComponent, pathMatch: 'full' },
- { path: 'standard-page/:id', component: StandardPageComponent },
- { path: 'dashboard', component: DashboardComponent },
-  { path: 'static_pages', loadChildren: './static-pages/static-pages.module#StaticPagesModule' },
+  { path: 'first-page', component: FirstPageComponent},
+  { path: 'second-page', component: SecondPageComponent},
+  { path: 'third-page', component: ThirdPageComponent}, 
   { path: '**', component: PageNotFoundComponent }
 ];
 
